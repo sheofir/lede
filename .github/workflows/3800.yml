@@ -95,7 +95,7 @@ jobs:
           cat >> .config <<EOF
           CONFIG_TARGET_ar71xx=y
           CONFIG_TARGET_ar71xx_generic=y
-          CONFIG_TARGET_ar71xx_generic_squashfs_netgear_wndr3800=y
+          CONFIG_TARGET_ar71xx_generic_DEVICE_wndr3800=y
           EOF
 
           # 固件压缩:
